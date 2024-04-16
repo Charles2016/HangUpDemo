@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManager (3.3.7)
+  - LKDBHelper (2.1.9):
+    - FMDB
+  - Masonry (1.0.1)
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - IQKeyboardManager (= 3.3.7)
+  - LKDBHelper (= 2.1.9)
+  - Masonry (= 1.0.1)
+  - MJExtension (= 3.0.13)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FMDB
+    - IQKeyboardManager
+    - LKDBHelper
+    - Masonry
+    - MJExtension
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  LKDBHelper: 78e6c0de99f45375892223a334535d745a123dbd
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: 8ed6cec94143258c347e9b77795a39913767a95b
+
+COCOAPODS: 1.11.3
