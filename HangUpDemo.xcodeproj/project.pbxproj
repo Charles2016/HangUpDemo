@@ -14,7 +14,6 @@
 		4399A32E2860719D00D85FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4399A32D2860719C00D85FA7 /* LaunchScreen.storyboard */; };
 		43AC6E542BCE06B4003BDD54 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC6E122BCE06B4003BDD54 /* HomeModel.m */; };
 		43AC6E572BCE06B4003BDD54 /* GDNextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC6E182BCE06B4003BDD54 /* GDNextVC.m */; };
-		43AC6E582BCE06B4003BDD54 /* GDMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC6E192BCE06B4003BDD54 /* GDMoveView.m */; };
 		43AC6E592BCE06B4003BDD54 /* GDLastVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC6E1A2BCE06B4003BDD54 /* GDLastVC.m */; };
 		43AC6E5A2BCE06B4003BDD54 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC6E1E2BCE06B4003BDD54 /* HomeVC.m */; };
 		43AC6E602BCE06B4003BDD54 /* GDWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC6E262BCE06B4003BDD54 /* GDWindowManager.m */; };
@@ -139,11 +138,9 @@
 		43AC6E112BCE06B4003BDD54 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		43AC6E122BCE06B4003BDD54 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		43AC6E182BCE06B4003BDD54 /* GDNextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNextVC.m; sourceTree = "<group>"; };
-		43AC6E192BCE06B4003BDD54 /* GDMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMoveView.m; sourceTree = "<group>"; };
 		43AC6E1A2BCE06B4003BDD54 /* GDLastVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLastVC.m; sourceTree = "<group>"; };
 		43AC6E1B2BCE06B4003BDD54 /* GDWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWindowManager.h; sourceTree = "<group>"; };
 		43AC6E1E2BCE06B4003BDD54 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		43AC6E212BCE06B4003BDD54 /* GDMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMoveView.h; sourceTree = "<group>"; };
 		43AC6E222BCE06B4003BDD54 /* GDNextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNextVC.h; sourceTree = "<group>"; };
 		43AC6E262BCE06B4003BDD54 /* GDWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWindowManager.m; sourceTree = "<group>"; };
 		43AC6E272BCE06B4003BDD54 /* GDLastVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLastVC.h; sourceTree = "<group>"; };
@@ -428,8 +425,6 @@
 				43AC6E1E2BCE06B4003BDD54 /* HomeVC.m */,
 				43AC6E272BCE06B4003BDD54 /* GDLastVC.h */,
 				43AC6E1A2BCE06B4003BDD54 /* GDLastVC.m */,
-				43AC6E212BCE06B4003BDD54 /* GDMoveView.h */,
-				43AC6E192BCE06B4003BDD54 /* GDMoveView.m */,
 				43AC6E222BCE06B4003BDD54 /* GDNextVC.h */,
 				43AC6E182BCE06B4003BDD54 /* GDNextVC.m */,
 				43AC6E1B2BCE06B4003BDD54 /* GDWindowManager.h */,
@@ -1137,7 +1132,6 @@
 				56B017A820E080D30045198E /* HBDNavigationBar.m in Sources */,
 				565AF5071FE9F75B00DAC840 /* LocationManager.m in Sources */,
 				565AF5021FE9F75B00DAC840 /* DataCache.m in Sources */,
-				43AC6E582BCE06B4003BDD54 /* GDMoveView.m in Sources */,
 				5679FFDC20DB4D6800727A5C /* SDWebImageManager.m in Sources */,
 				565AF5051FE9F75B00DAC840 /* HttpClient.m in Sources */,
 				435918DF288A930E00D87D84 /* SuperNavigationController+SPFullscreenPopGesture.m in Sources */,

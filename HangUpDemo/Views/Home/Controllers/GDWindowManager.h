@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GDMoveView.h"
 
 @interface GDWindowManager : NSObject <UIGestureRecognizerDelegate>
 
